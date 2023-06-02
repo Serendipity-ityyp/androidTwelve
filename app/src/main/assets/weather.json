@@ -1,0 +1,5 @@
+[
+  {"temp": "20C /30c","weather": "晴转多云","city": "上海","pm": "2.5","wind": "1级"},
+  {"temp":  "15C /24C","weather": "晴","city": "北京","pm": "3","wind": "3级"},
+  {"temp": "26C /32C" ,"weather":  "多云","city":  "广州","pm": "4","wind": "2级"}
+]

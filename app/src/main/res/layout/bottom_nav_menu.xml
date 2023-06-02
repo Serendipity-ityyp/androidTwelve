@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:layout_width="wrap_content">
+    <item
+        android:id="@+id/menu_news"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="新闻" />
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@android:drawable/star_big_on"
+        android:title="天气" />
+    <item
+        android:id="@+id/menu_service"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="记事本" />
+    <item
+        android:id="@+id/menu_rich"
+        android:icon="?attr/actionModePasteDrawable"
+        android:title="音乐" />
+    <item
+        android:id="@+id/menu_chat"
+        android:icon="?attr/actionModePasteDrawable"
+        android:title="智能机器人" />
+
+    <item
+        android:id="@+id/menu_mine"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="个人中心" />
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AndroidTwelve</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="welcome">
+        <item>亲爱的，想死我了，么么哒，(✿◡‿◡)</item>
+        <item>"更多资源，请访问：http://myapptg.com</item>
+        <item>主人，人家好无聊呀,来陪我耍吧</item>
+        <item>主人，您又来找人家耍了呀，不能耍太久哦，您还要好好复习呢</item>
+        <item>"更多资源，请访问：http://myapptg.com</item>
+        <item>主人，自从使用了高考助手，成绩是不是提高了呢？</item>
+        <item>小主人，你是不是学习累了，您可以输入，来个笑话，我可以为您讲笑话哦</item>
+        <item>主人，你是不是上班疲惫了？您可以输入，讲故事，我可以为您讲一些有趣的故事哟</item>
+        <item>今天，我好累，不想和你聊天</item>
+        <item>小主人您复习的怎么样了</item>
+    </string-array>
+</resources>
