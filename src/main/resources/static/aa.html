@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<body>
+<form id="myForm" action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="img">
+    <button type="submit">提交</button>
+</form>
+
+<script>
+    const form = document.querySelector('#myForm');
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const input = document.querySelector('input[type="file"]');
+        const formData = new FormData();
+        formData.append('img', input.files[0]);
+        fetch('/upload', {
+            method: 'POST',
+            body: formData
+        }).then(response => {
+            console.log(response);
+        }).catch(error => {
+            console.log(error);
+        });
+    });
+</script>
+</body>
+</html>
